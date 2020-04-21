@@ -1,11 +1,12 @@
 body {
+	box-sizing: border-box;
 	font-family: Arial, sans-serif;
 	font-size: 16px;
 	color: #303846;
 }
 
 .main-header {
-	position: fixed;
+	/*position: fixed;*/
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -15,27 +16,66 @@ body {
 
 .main-header__logo {
 	display: flex;
-}
-
-.main-header__logo h1 {
-	font: inherit;
-	padding-left: 10px;
+	align-items: center;
 }
 
 .main-header__logo a {
 	text-decoration: none;
+	padding-right: 15px;
 	color: #303846;
 }
+
+
 
 .main-header__menu {
 	display: flex;
 	justify-content: space-between;
 	list-style: none;
+	padding: 0;
+	margin: 0;
 }
+
 
 .main-header__menu a {
 	text-decoration: none;
 	padding-left: 20px;
 	padding-right: 20px;
 	color: inherit;
+}
+
+
+.promo {
+	width: 100%;
+	min-height: 270px;
+	
+	background-image: url("../images/banner.png");
+	background-repeat: no-repeat;
+	background-position: 25% 75%;
+
+	background-size: cover;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #fff;
+} 
+
+.promo h1 {
+	margin: 0;
+}
+
+.promo p {
+	font-size: 13px;
+}
+
+.button {
+	background: none;
+	border-radius: 5px;
+	padding: 5px 10px;
+}
+
+
+.promo-button {
+	border: 1px solid #fff;
+	color: #fff;
 }
