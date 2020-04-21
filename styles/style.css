@@ -3,3 +3,39 @@ body {
 	font-size: 16px;
 	color: #303846;
 }
+
+.main-header {
+	position: fixed;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;	
+	background-color: #fff;
+}
+
+.main-header__logo {
+	display: flex;
+}
+
+.main-header__logo h1 {
+	font: inherit;
+	padding-left: 10px;
+}
+
+.main-header__logo a {
+	text-decoration: none;
+	color: #303846;
+}
+
+.main-header__menu {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+}
+
+.main-header__menu a {
+	text-decoration: none;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: inherit;
+}
