@@ -1,12 +1,22 @@
 body {
 	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 	font-family: Arial, sans-serif;
 	font-size: 16px;
 	color: #303846;
+
+}
+
+.container {
+	width: 1000px;
+	margin: auto;
+
+	border: 1px solid yellow;
 }
 
 .main-header {
-	/*position: fixed;*/
+	position: fixed;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -45,8 +55,10 @@ body {
 
 
 .promo {
+
 	width: 100%;
-	min-height: 270px;
+	min-height: 280px;
+	padding-top: 50px;
 	
 	background-image: url("../images/banner.png");
 	background-repeat: no-repeat;
@@ -62,6 +74,7 @@ body {
 
 .promo h1 {
 	margin: 0;
+	font-size: 30px;
 }
 
 .promo p {
@@ -72,10 +85,82 @@ body {
 	background: none;
 	border-radius: 5px;
 	padding: 5px 10px;
+	cursor: pointer;
 }
 
 
 .promo-button {
 	border: 1px solid #fff;
 	color: #fff;
+}
+
+.advantages {
+	width: 100%;
+
+	background-color: #fff;
+	padding-top: 30px;
+}
+
+.advantages-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+
+	display: flex;
+	justify-content: space-between;
+}
+
+.advantage-item {
+	width: 270px;
+}
+
+.advantage-item h2 {
+	font-size: 25px;
+}
+
+.advantage-item p {
+	font-size: 16px;
+	line-height: 25px;
+}
+
+.about {
+	background-color: #f7f7f7;
+	padding-top: 30px;
+
+}
+
+.about-box, 
+.places-box  {
+	display: flex;
+	border: 3px solid pink;
+	padding: 0;
+	margin: 0;
+}
+
+.about-foto {
+	order: 2;
+}
+
+.about figcaption {
+	order: 1;
+}
+
+.about-text, 
+.places-text {
+	font-size: 16px;
+	line-height: 25px;
+	border: 2px solid red;
+}
+
+.about-text {
+	margin-right: 100px;
+}
+
+.places-text, 
+.places-box h2 {
+	margin-left: 100px;
+}
+
+.places {
+	padding-top: 30px;
 }
