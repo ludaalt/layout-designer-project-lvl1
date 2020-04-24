@@ -11,7 +11,6 @@ body {
 .container {
 	width: 1000px;
 	margin: auto;
-
 }
 
 .main-header {
@@ -35,8 +34,6 @@ body {
 	color: #303846;
 }
 
-
-
 .main-header__menu {
 	display: flex;
 	justify-content: space-between;
@@ -45,7 +42,6 @@ body {
 	margin: 0;
 }
 
-
 .main-header__menu a {
 	text-decoration: none;
 	padding-left: 20px;
@@ -53,10 +49,7 @@ body {
 	color: inherit;
 }
 
-
 .promo {
-
-
 	width: 100%;
 	min-height: 280px;
 	padding-top: 50px;
@@ -92,7 +85,6 @@ body {
 	text-decoration: none;
 }
 
-
 .promo-button {
 	border: 1px solid #fff;
 	color: #fff;
@@ -102,10 +94,8 @@ body {
 	width: 100%;
 
 	background-color: #fff;
-	padding-top: 30px;
-
-	padding-top: 30px;
-	border: 3px solid pink;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
 .advantages-list {
@@ -121,10 +111,6 @@ body {
 	width: 270px;
 }
 
-/*.advantage-item h2 {
-	font-size: 25px;
-}*/
-
 .advantage-item p {
 	font-size: 16px;
 	line-height: 25px;
@@ -132,14 +118,13 @@ body {
 
 .about {
 	background-color: #f7f7f7;
-	padding-top: 30px;
-
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
 .about-box, 
 .places-box  {
 	display: flex;
-	border: 3px solid pink;
 	padding: 0;
 	margin: 0;
 }
@@ -156,7 +141,6 @@ body {
 .places-text {
 	font-size: 16px;
 	line-height: 25px;
-	border: 2px solid red;
 }
 
 .about-text {
@@ -169,7 +153,8 @@ body {
 }
 
 .places {
-	padding-top: 30px;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
 .request-form {
@@ -188,15 +173,12 @@ body {
 	margin-bottom: 25px;
 	color: #30d5c8;
 	border: 2px solid #30d5c8;
-
 }
 
 .request-item {
 	display: flex;
-
 	justify-content: space-around;
 	align-content:  center;
-
 }
 
 .request-item label {
@@ -207,30 +189,48 @@ body {
 .select-repair {
 	width: 145px;
 	padding: 2px;
-
 	margin-right: 80px;
 	border-radius: 8px;
 	border: 1px solid lightgrey;
 }
 
-
 .request-item input {
 	width: 200px;
 	padding: 2px;
-
-
 	margin-right: 20px;
 	border: 1px solid lightgrey;
 	border-radius: 8px;
-
 }
 
 
 .form-button {
 	border: 1px solid #30d5c8;
 	color: #30d5c8;
-
 }
 
+.main-footer {
+	background-color: #303846;
+	display: flex;
+	justify-content: space-around;
+	color: #fff;
+	padding: 50px;
+}
 
-	
+.main-footer-block {
+	padding: 0;
+	margin: 0;
+}
+
+.main-footer-block h3 {
+	padding: 0;
+	margin: 0;
+}
+
+.main-footer-block li {
+	margin-bottom: 10px;
+}
+
+.main-footer-block a {
+	color: #fff;
+	text-decoration: none;
+}
