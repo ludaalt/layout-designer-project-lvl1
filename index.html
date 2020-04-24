@@ -33,7 +33,7 @@
 				</p>
 				<h1>ЖК «Лунное море»</h1>
 				<p>Место, откуда не хочется улетать</p>
-				<button type="button" class="button promo-button">Забронировать</button>				
+				<a href="#request-button" class="button promo-button">Забронировать</a>				
 			
 			
 		</section>
@@ -103,6 +103,61 @@
 
 				</figure>
 			</div>			
+		</section>
+
+
+		<section class="request-form">
+			<div class="request-form-wrapper">
+				
+			
+				<h2>Оставьте заявку сегодня!</h2>
+
+				<form action="https://" method="post">
+					<a name="request-button"></a>
+
+					<fieldset class="request-form-block">
+						<legend>Параметры квартиры</legend>
+						<p class="request-item">
+							<label for="request-rooms">Количество комнат:</label>
+							<select name="select-rooms" id="request-rooms" class="select-rooms"> 
+								<option value="value1" selected>1</option> 
+								<option value="value2">2</option>
+								<option value="value3">3</option>
+							</select>
+						</p>
+						<p class="request-item">
+							<label for="request-repair">Отделка:</label>
+							<select name="select-repair" id="request-repair" class="select-repair"> 
+								<option value="value1" selected>Без отделки</option> 
+								<option value="value2">С отделкой</option>
+								<option value="value3">С супер отделкой</option>
+							</select>
+						</p>
+					</fieldset>
+
+					<fieldset class="request-form-block">
+						<legend>Контактная информация</legend>
+						<p class="request-item">
+							<label for="request-name">Имя:</label>
+							<input type="text" id="request-name" name="user-name" value="">							
+						</p>
+						<p class="request-item">
+							<label for="request-phone">Телефон:</label>
+							<input type="tel" id="request-phone" name="user-phone" value="">
+						</p>
+						<p class="request-item">
+							<label for="request-email">E-mail:</label>
+							<input type="email" id="request-email" name="user-email" value="">
+						</p>
+					</fieldset>
+
+					<button type="submit" class="button form-button">Отправить</button>
+
+				</form>
+
+			</div>
+
+			
 		</section>
 
 
