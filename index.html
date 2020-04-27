@@ -10,17 +10,19 @@
 </head>
 <body>
 	<header class="main-header">
-		<div class="main-header__logo">			
-			<a href="index.html">
-				<img src="images/logo.svg" alt="Main-logo" width="40" height="40">
-			</a>
-			<a href="index.html">Лунное море</a>			
+		<div class="header-wrapper">
+			<div class="main-header__logo">			
+				<a href="index.html">
+					<img src="images/logo.svg" alt="Main-logo" width="40" height="40">
+				</a>
+				<a href="index.html">Лунное море</a>			
+			</div>
+			<ul class="main-header__menu"> 
+				<li><a href="#advantages">Преимущества</a></li>
+				<li><a href="#about">О ЖК</a></li>
+				<li><a href="#places">Места для отдыха</a></li>
+			</ul>
 		</div>
-		<ul class="main-header__menu"> 
-			<li><a href="#advantages">Преимущества</a></li>
-			<li><a href="#about">О ЖК</a></li>
-			<li><a href="#places">Места для отдыха</a></li>
-		</ul>
 	</header>
 
 	<main>
@@ -102,13 +104,14 @@
 
 
 		<section class="request-form">
+			<a id="request-button"></a>
 			<div class="request-form-wrapper">
 				
 			
 				<h2>Оставьте заявку сегодня!</h2>
 
 				<form method="post">
-					<a id="request-button"></a>
+					
 
 					<fieldset class="request-form-block">
 						<legend>Параметры квартиры</legend>
@@ -154,6 +157,7 @@
 	</main>
 
 	<footer class="main-footer">
+		<div class="container">
 
 		<div class="main-footer-block">
 			<div class="main-header__logo">			
@@ -180,7 +184,8 @@
 				<li><a href="#">Отзывы</a></li>
 				<li><a href="#">Сайт компании</a></li>
 			</ul>
-		</div>		
+		</div>	
+		</div>	
 	</footer>
 
 </body>
