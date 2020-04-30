@@ -5,8 +5,13 @@ body {
 	font-family: Arial, sans-serif;
 	font-size: 16px;
 	color: #303846;
-
 }
+
+:root {
+	--header-height: #000000;
+}
+
+
 .container {
 	width: 1000px;
 	margin: auto;
@@ -14,48 +19,55 @@ body {
 	padding-bottom: 60px;
 }
 
+.flex-space-between {
+	display: flex;
+	justify-content: space-between;
+}
+
+.gray-background {
+	background-color: #f7f7f7;
+}
+
+
+
 .main-header {
-	position: fixed;
-	
-	
+	position: fixed;		
 	width: 100%;	
 	background-color: #fff;
+
+	height: var(--header-height);
 }
 
 .header-wrapper {
-	display: flex;
-	justify-content: space-between;
 	align-items: center;
 	padding: 10px 30px;
 }	
 
-.main-header__logo {
+.main-header-logo {
 	display: flex;
 	align-items: center;
 }
 
-.main-header__logo a {
+.main-header-logo a {
 	text-decoration: none;
 	padding-right: 15px;
 	color: #303846;
 }
 
-.main-header__menu {
-	display: flex;
-	justify-content: space-between;
+.main-header-menu {
 	list-style: none;
 	padding: 0;
 	margin: 0;
 }
 
-.main-header__menu a {
+.main-header-menu a {
 	text-decoration: none;
 	padding-left: 20px;
 	padding-right: 20px;
 	color: inherit;
 }
 
-.promo {
+.page-description {
 	width: 100%;
 	min-height: 300px;
 	padding-top: 80px;
@@ -72,18 +84,16 @@ body {
 	color: #fff;
 } 
 
-.promo h1 {
+.main-title {
 	margin: 0;
 	font-size: 40px;
 }
 
-.promo p {
+.page-description p {
 	font-size: 17px;
 	margin-top: 10px;
 	margin-bottom: 15px;
 }
-
-
 
 .button {
 	background: none;
@@ -95,7 +105,7 @@ body {
 	text-decoration: none;
 }
 
-.promo-button {
+.white-button {
 	border: 1px solid #fff;
 	color: #fff;
 }
@@ -109,9 +119,6 @@ body {
 	list-style: none;
 	padding: 0;
 	margin: 0;
-
-	display: flex;
-	justify-content: space-between;
 }
 
 .advantage-item {
@@ -121,10 +128,6 @@ body {
 .advantage-item p {
 	font-size: 16px;
 	line-height: 25px;
-}
-
-.about {
-	background-color: #f7f7f7;
 }
 
 .about-box, 
@@ -157,10 +160,6 @@ body {
 	margin-left: 100px;
 }
 
-.request-form {
-	background-color: #f7f7f7;
-}
-
 .request-form-wrapper {
 	max-width: 500px;
 	margin: 0 auto;
@@ -176,9 +175,7 @@ body {
 }
 
 .request-item {
-	display: flex;
-	justify-content: space-around;
-	align-content:  center;
+	align-content: center;
 }
 
 .request-item label {
@@ -202,8 +199,7 @@ body {
 	border-radius: 8px;
 }
 
-
-.form-button {
+.green-button {
 	border: 1px solid #30d5c8;
 	color: #30d5c8;
 }
@@ -211,11 +207,6 @@ body {
 .main-footer {
 	background-color: #303846;
 	color: #fff;	
-}
-
-.main-footer .container {
-	display: flex;
-	justify-content: space-between;
 }
 
 .main-footer-block {
