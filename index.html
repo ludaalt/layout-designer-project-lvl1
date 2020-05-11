@@ -8,27 +8,24 @@
 
     <link rel="stylesheet" href="styles/style.css">
 </head>
-<body>
-	
+<body>	
 	<header class="main-header">
-		<div class="header-wrapper flex-space-between">
-			<div class="main-header-logo">			
-				<a href="index.html">
+		<div class="header-wrapper flex-space-between flex-items-center">
+			<div class="flex-items-center">			
+				<a class="link" href="index.html">
 					<img src="images/logo.svg" alt="Main-logo" width="40" height="40">
 				</a>
-				<a href="index.html">Лунное море</a>			
+				<a class="link" href="index.html">Лунное море</a>			
 			</div>
-			<ul class="main-header-menu flex-space-between"> 
-				<li><a href="#advantages">Преимущества</a></li>
-				<li><a href="#about">О ЖК</a></li>
-				<li><a href="#places">Места для отдыха</a></li>
+			<ul class="list flex-space-between"> 
+				<li><a class="link"  href="#advantages">Преимущества</a></li>
+				<li><a class="link" href="#about">О ЖК</a></li>
+				<li><a class="link" href="#places">Места для отдыха</a></li>
 			</ul>
 		</div>
 	</header>
-
-
 	<main>
-		<section class="page-description">			
+		<section class="page-description flex-items-center">			
 				<p>
 				<img src="images/logo.svg" alt="Page-description-logo" height="100" width="100">
 				</p>
@@ -36,155 +33,134 @@
 				<p>Место, откуда не хочется улетать</p>
 				<a href="#request-button" class="button white-button">Забронировать</a>				
 		</section>
-
-
-		<section class="advantages">
+		<section>
 			<a id="advantages"></a>
-			<div class="container">
-				<ul class="advantages-list flex-space-between">
-					<li class="advantage-item">
+			<div class="container flex-space-between">
+				
+					<div class="advantage-item">
 						<h2>Уникальный вид</h2>
-						<p>Вид на космос из вашего окна. Мы построили дома с большими окнами, чтобы вы могли наслаждаться метеоритными потоками.</p>
-					</li>
+						<p class="line-height25px">Вид на космос из вашего окна. Мы построили дома с большими окнами, чтобы вы могли наслаждаться метеоритными потоками.</p>
+					</div>
 
-					<li class="advantage-item">
+					<div class="advantage-item">
 						<h2>Инфраструктура</h2>
-						<p>Прекрасные дороги рядом с домом. Много мест для прогулки. Всего в 200 км. от посёлка находится кольцо гор Кордильеры, на которых вы сможете провести незабываемые выходные.</p>
-					</li>
+						<p class="line-height25px">Прекрасные дороги рядом с домом. Много мест для прогулки. Всего в 200 км. от посёлка находится кольцо гор Кордильеры, на которых вы сможете провести незабываемые выходные.</p>
+					</div>
 
-					<li class="advantage-item">
+					<div class="advantage-item">
 						<h2>Близость к Москве</h2>
-						<p>При небольшой цене мы располагаемся близко к МКАД. Всего 384 000 километров и вы в самом сердце России.</p>
-					</li>
-					
-				</ul>
+						<p class="line-height25px">При небольшой цене мы располагаемся близко к МКАД. Всего 384 000 километров и вы в самом сердце России.</p>
+					</div>				
 			</div>
 		</section>
 
-		<section class="about gray-background">
+		<section class="gray-background">
 			<a id="about"></a>
-			<div class="container">
-
-
-				<figure class="about-box">
-				    <p class="about-foto"><img src="images/moon-1.jpg" alt="Moon" height="230" width="380"></p>
-
-				    <figcaption>   				
-
+			<div class="container flex-space-around">	
+				<div class="section-wrap">	
 						<h2>О ЖК «Лунное море»</h2>
-						<p class="about-text">Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до столицы и обратно.</p>
-						<p class="about-text">Мы построили наши дома на самом близком к Солнцу спутнике, всего в 380 тысяч километров от Земли.</p>
-
-					</figcaption>
-
-				</figure>
+						<p class="line-height25px">Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до столицы и обратно.</p>
+						<p class="line-height25px">Мы построили наши дома на самом близком к Солнцу спутнике, всего в 380 тысяч километров от Земли.</p>
+				</div>
+				<p class="section-foto"><img src="images/moon-1.jpg" alt="Moon" height="230" width="380"></p>
 			</div>						
 		</section>
 
-
-
-
 		<section>
 			<a id="places"></a>
-			<div class="container">
-
-
-				<figure class="places-box">
-				    <p class="places-foto"><img src="images/moon-2.jpg" alt="Moon" height="230" width="380"></p>
-
-				    <figcaption>   				
-
+			<div class="container flex-space-around">	
+				<div class="section-wrap">	
 						<h2>Места для отдыха</h2>
-						<p class="places-text">Луна обладает всеми условиями для комфортного отдыха от большого города. В вашем распоряжении 22 моря и 18 гор. Самое ближайшее кольцо гор всего в 200 километров от вашей квартиры.</p>
-						<p class="places-text">Дома располагаются в новом районе «Лунные моря». При необходимости есть автобусы до района «Лунный материк».</p>
-
-					</figcaption>
-
-				</figure>
+						<p class="line-height25px">Луна обладает всеми условиями для комфортного отдыха от большого города. В вашем распоряжении 22 моря и 18 гор. Самое ближайшее кольцо гор всего в 200 километров от вашей квартиры.</p>
+						<p class="line-height25px">Дома располагаются в новом районе «Лунные моря». При необходимости есть автобусы до района «Лунный материк».</p>
+				</div>
+				<p class="section-foto foto-firstly"><img src="images/moon-2.jpg" alt="Moon" height="230" width="380"></p>	
 			</div>			
 		</section>
 
 
 		<section class="gray-background">
 			<a id="request-button"></a>
-			<div class="request-form-wrapper">
+			<div class="container">
 				
-			
-				<h2>Оставьте заявку сегодня!</h2>
+				<div class="request-form-wrapper">				
+					<h2>Оставьте заявку сегодня!</h2>
+						<form method="post">
+						
 
-				<form method="post">
-					
+							<fieldset class="request-form-fieldset">
+								<legend>Параметры квартиры</legend>
+								<p class="request-item flex-items-center">
+									<label for="request-rooms">Количество комнат:</label>
+									<select name="select-rooms" id="request-rooms" class="select form-field"> 
+										<option value="value1" selected>1</option> 
+										<option value="value2">2</option>
+										<option value="value3">3</option>
+									</select>
+								</p>
+								<p class="request-item flex-items-center">
+									<label for="request-repair">Отделка:</label>
+									<select name="select-repair" id="request-repair" class="select form-field"> 
+										<option value="value1" selected>Без отделки</option> 
+										<option value="value2">С отделкой</option>
+										<option value="value3">С супер отделкой</option>
+									</select>
+								</p>
+							</fieldset>
 
-					<fieldset class="request-form-block">
-						<legend>Параметры квартиры</legend>
-						<p class="request-item flex-space-between">
-							<label for="request-rooms">Количество комнат:</label>
-							<select name="select-rooms" id="request-rooms" class="select-rooms"> 
-								<option value="value1" selected>1</option> 
-								<option value="value2">2</option>
-								<option value="value3">3</option>
-							</select>
-						</p>
-						<p class="request-item flex-space-between">
-							<label for="request-repair">Отделка:</label>
-							<select name="select-repair" id="request-repair" class="select-repair"> 
-								<option value="value1" selected>Без отделки</option> 
-								<option value="value2">С отделкой</option>
-								<option value="value3">С супер отделкой</option>
-							</select>
-						</p>
-					</fieldset>
+							<fieldset class="request-form-fieldset">
+								<legend>Контактная информация</legend>
+								<p class="request-item flex-items-center">
+									<label for="request-name">Имя:</label>
+									<input class="form-field" type="text" id="request-name" name="user-name" value="">							
+								</p>
+								<p class="request-item flex-items-center">
+									<label for="request-phone">Телефон:</label>
+									<input class="form-field" type="tel" id="request-phone" name="user-phone" value="">
+								</p>
+								<p class="request-item flex-items-center">
+									<label for="request-email">E-mail:</label>
+									<input class="form-field" type="email" id="request-email" name="user-email" value="">
+								</p>
+							</fieldset>
 
-					<fieldset class="request-form-block">
-						<legend>Контактная информация</legend>
-						<p class="request-item flex-space-between">
-							<label for="request-name">Имя:</label>
-							<input type="text" id="request-name" name="user-name" value="">							
-						</p>
-						<p class="request-item flex-space-between">
-							<label for="request-phone">Телефон:</label>
-							<input type="tel" id="request-phone" name="user-phone" value="">
-						</p>
-						<p class="request-item flex-space-between">
-							<label for="request-email">E-mail:</label>
-							<input type="email" id="request-email" name="user-email" value="">
-						</p>
-					</fieldset>
+							<button type="submit" class="button green-button">Отправить</button>
 
-					<button type="submit" class="button green-button">Отправить</button>
-
-				</form>
-			</div>			
+						</form>
+				</div>	
+			</div>		
 		</section>		
 	</main>
 
 	<footer class="main-footer">
 		<div class="container flex-space-between">
 
-		<div class="main-footer-block">
-			<div class="main-header__logo">			
-				<a href="index.html">
-					<img src="images/logo.svg" alt="Main-logo" width="40" height="40">
-				</a>
-				<a href="index.html">Лунное море</a>			
+			<div class="main-footer-block">
+
+				<div class="flex-items-center">			
+					<a class="link" href="index.html">
+						<img src="images/logo.svg" alt="Main-logo" width="40" height="40">
+					</a>
+					<a class="link" href="index.html">Лунное море</a>			
+				</div>
+				
+				<p>© 2032 год</p>
 			</div>
-			<p>© 2032 год</p>
-		</div>
 
 
 		<div class="main-footer-block">
 			<h3>Проектная документация</h3>
 			<ul>
-				<li><a href="#">Скачать</a></li>
-				<li><a href="#">Посмотреть на сайте</a></li>
+				<li><a class="link line-height25px" href="#">Скачать</a></li>
+				<li><a class="link line-height25px" href="#">Посмотреть на сайте</a></li>
 			</ul>
 		</div>
 
 		<div class="main-footer-block">
 			<h3>О застройщике</h3>
 			<ul>
-				<li><a href="#">Отзывы</a></li>
-				<li><a href="#">Сайт компании</a></li>
+				<li><a class="link line-height25px" href="#">Отзывы</a></li>
+				<li><a class="link line-height25px" href="#">Сайт компании</a></li>
 			</ul>
 		</div>	
 		</div>	
