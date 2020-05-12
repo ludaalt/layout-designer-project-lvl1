@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>	
-	<header class="main-header">
+	<header class="main-header w100">
 		<div class="header-wrapper flex-space-between flex-items-center">
 			<div class="flex-items-center">			
 				<a class="link" href="index.html">
@@ -25,7 +25,7 @@
 		</div>
 	</header>
 	<main>
-		<section class="page-description flex-items-center">			
+		<section class="page-description flex-items-center w100">			
 				<p>
 				<img src="images/logo.svg" alt="Page-description-logo" height="100" width="100">
 				</p>
@@ -33,21 +33,21 @@
 				<p>Место, откуда не хочется улетать</p>
 				<a href="#request-button" class="button white-button">Забронировать</a>				
 		</section>
-		<section>
+		<section class="w100">
 			<a id="advantages"></a>
 			<div class="container flex-space-between">
 				
-					<div class="advantage-item">
+					<div class="w30">
 						<h2>Уникальный вид</h2>
 						<p class="line-height25px">Вид на космос из вашего окна. Мы построили дома с большими окнами, чтобы вы могли наслаждаться метеоритными потоками.</p>
 					</div>
 
-					<div class="advantage-item">
+					<div class="w30">
 						<h2>Инфраструктура</h2>
 						<p class="line-height25px">Прекрасные дороги рядом с домом. Много мест для прогулки. Всего в 200 км. от посёлка находится кольцо гор Кордильеры, на которых вы сможете провести незабываемые выходные.</p>
 					</div>
 
-					<div class="advantage-item">
+					<div class="w30">
 						<h2>Близость к Москве</h2>
 						<p class="line-height25px">При небольшой цене мы располагаемся близко к МКАД. Всего 384 000 километров и вы в самом сердце России.</p>
 					</div>				
@@ -57,7 +57,7 @@
 		<section class="gray-background">
 			<a id="about"></a>
 			<div class="container flex-space-around">	
-				<div class="section-wrap">	
+				<div class="w50">	
 						<h2>О ЖК «Лунное море»</h2>
 						<p class="line-height25px">Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до столицы и обратно.</p>
 						<p class="line-height25px">Мы построили наши дома на самом близком к Солнцу спутнике, всего в 380 тысяч километров от Земли.</p>
@@ -69,7 +69,7 @@
 		<section>
 			<a id="places"></a>
 			<div class="container flex-space-around">	
-				<div class="section-wrap">	
+				<div class="w50">	
 						<h2>Места для отдыха</h2>
 						<p class="line-height25px">Луна обладает всеми условиями для комфортного отдыха от большого города. В вашем распоряжении 22 моря и 18 гор. Самое ближайшее кольцо гор всего в 200 километров от вашей квартиры.</p>
 						<p class="line-height25px">Дома располагаются в новом районе «Лунные моря». При необходимости есть автобусы до района «Лунный материк».</p>
@@ -85,21 +85,20 @@
 				
 				<div class="request-form-wrapper">				
 					<h2>Оставьте заявку сегодня!</h2>
-						<form method="post">
-						
+						<form method="post">						
 
 							<fieldset class="request-form-fieldset">
 								<legend>Параметры квартиры</legend>
-								<p class="request-item flex-items-center">
-									<label for="request-rooms">Количество комнат:</label>
+								<p class="flex-items-center">
+									<label class="label" for="request-rooms">Количество комнат:</label>
 									<select name="select-rooms" id="request-rooms" class="select form-field"> 
 										<option value="value1" selected>1</option> 
 										<option value="value2">2</option>
 										<option value="value3">3</option>
 									</select>
 								</p>
-								<p class="request-item flex-items-center">
-									<label for="request-repair">Отделка:</label>
+								<p class="flex-items-center">
+									<label class="label" for="request-repair">Отделка:</label>
 									<select name="select-repair" id="request-repair" class="select form-field"> 
 										<option value="value1" selected>Без отделки</option> 
 										<option value="value2">С отделкой</option>
@@ -110,17 +109,17 @@
 
 							<fieldset class="request-form-fieldset">
 								<legend>Контактная информация</legend>
-								<p class="request-item flex-items-center">
-									<label for="request-name">Имя:</label>
-									<input class="form-field" type="text" id="request-name" name="user-name" value="">							
+								<p class="flex-items-center">
+									<label class="label" for="request-name">Имя:</label>
+									<input class="form-field input" type="text" id="request-name" name="user-name" value="">							
 								</p>
-								<p class="request-item flex-items-center">
-									<label for="request-phone">Телефон:</label>
-									<input class="form-field" type="tel" id="request-phone" name="user-phone" value="">
+								<p class="flex-items-center">
+									<label class="label" for="request-phone">Телефон:</label>
+									<input class="form-field input" type="tel" id="request-phone" name="user-phone" value="">
 								</p>
-								<p class="request-item flex-items-center">
-									<label for="request-email">E-mail:</label>
-									<input class="form-field" type="email" id="request-email" name="user-email" value="">
+								<p class="flex-items-center">
+									<label  class="label" for="request-email">E-mail:</label>
+									<input class="form-field input" type="email" id="request-email" name="user-email" value="">
 								</p>
 							</fieldset>
 
@@ -134,9 +133,7 @@
 
 	<footer class="main-footer">
 		<div class="container flex-space-between">
-
-			<div class="main-footer-block">
-
+			<div>
 				<div class="flex-items-center">			
 					<a class="link" href="index.html">
 						<img src="images/logo.svg" alt="Main-logo" width="40" height="40">
@@ -147,8 +144,7 @@
 				<p>© 2032 год</p>
 			</div>
 
-
-		<div class="main-footer-block">
+		<div>
 			<h3>Проектная документация</h3>
 			<ul>
 				<li><a class="link line-height25px" href="#">Скачать</a></li>
@@ -156,7 +152,7 @@
 			</ul>
 		</div>
 
-		<div class="main-footer-block">
+		<div>
 			<h3>О застройщике</h3>
 			<ul>
 				<li><a class="link line-height25px" href="#">Отзывы</a></li>
