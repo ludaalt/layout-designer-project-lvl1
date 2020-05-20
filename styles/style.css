@@ -95,7 +95,7 @@ main {
 
 .page-description {
 	min-height: 270px;
-	padding: 20px;
+	padding: 20px 0;
 	
 	background-image: url("../images/banner.png");
 	background-repeat: no-repeat;
